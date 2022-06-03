@@ -15,11 +15,9 @@ body {
 
 .container {
   max-width: 640px;
-  background: #fff;
-  margin: 2rem 32rem 2rem 25rem;
+  margin: auto;
   border-radius: 10px;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-  padding: 1rem;
+  opacity: 1;
 }
 
 form input, form label, form button {
@@ -47,7 +45,6 @@ form button {
   cursor: pointer;
   margin-top: 30px;
 }
-
 #grad {
   background-image: linear-gradient(to right, rgba(2, 2, 2, 0), rgb(0, 0, 0));
 }
@@ -74,4 +71,9 @@ form button {
 }
 h1{
   margin-left: 7rem;
+}
+@media only screen and (max-width: 600px) {
+  .container{
+    margin: 0 3rem 0 3rem;
+  }
 }
